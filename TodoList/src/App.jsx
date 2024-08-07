@@ -16,7 +16,7 @@ function App() {
   }
   return (
     <>
-    <div className='w-96 justify-center bg-slate-300 h-96 mx-auto rounded-md'>
+    <div className='w-96 justify-center bg-slate-300 h-auto mx-auto rounded-md pb-1'>
       <h1 className='bg-slate-400 h-12 text-center mt-2 pt-2 rounded-t-md text-2xl'>Todo-App</h1>
       <Input addTodoInList = {addTodoInList}/>
       {todoList.map((item,key)=>{
